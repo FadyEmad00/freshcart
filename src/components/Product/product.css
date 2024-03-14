@@ -1,0 +1,16 @@
+.product {
+  overflow: hidden;
+}
+
+.product:hover {
+  box-shadow: 0 0 10px #198754;
+  cursor: pointer;
+}
+.product:hover .add-btn {
+  transform: translateY(0);
+}
+
+.add-btn {
+  transform: translateY(100px);
+  transition: 0.5s;
+}
